@@ -12,19 +12,6 @@ It wouldn't be nice if it was possible to set or generate a map quikly ? If the 
 
 Well it's exactly what McMapDJ doese !
 
-### How doese it looks like ?
-
-#### The menu :
-[<img src="./Lib/images/menu.png" width="600"/>](./Lib/images/menu.png)
-#### Change a map :
-[<img src="./Lib/images/change_map.png" width="600"/>](./Lib/images/change_map.png)
-#### Choosing a version :
-[<img src="./Lib/images/choosing_version.png" width="600"/>](./Lib/images/choosing_version.png)
-#### Choosing parameters :
-[<img src="./Lib/images/choosing_parameters.png" width="600"/>](./Lib/images/choosing_parameters.png)
-#### Starting the server :
-[<img src="./Lib/images/start_server.png" width="600"/>](./Lib/images/start_server.png)
-
 ### How do i set it up ?
 
 #### 1) Requirements
@@ -67,3 +54,17 @@ McMapDJ
        └-server.properties
        └-plugins
 ```
+
+
+### How doese it looks like ?
+
+#### The menu :
+[<img src="./Lib/images/menu.png" width="600"/>](./Lib/images/menu.png)
+#### Change a map :
+[<img src="./Lib/images/change_map.png" width="600"/>](./Lib/images/change_map.png)
+#### Choosing a version :
+[<img src="./Lib/images/choosing_version.png" width="600"/>](./Lib/images/choosing_version.png)
+#### Choosing parameters :
+[<img src="./Lib/images/choosing_parameters.png" width="600"/>](./Lib/images/choosing_parameters.png)
+#### Starting the server :
+[<img src="./Lib/images/start_server.png" width="600"/>](./Lib/images/start_server.png)
