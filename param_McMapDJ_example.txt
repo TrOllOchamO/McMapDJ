@@ -1,0 +1,4 @@
+path_server_directory=/home/pi/minecraft-mini-games
+server_screen_session_name=server-minecraft
+user_name=pi
+server_start_command=java -Xms2500M -Xmx2500M -jar {PATH_SERVER_DIRECTORY}/spigot-{VERSION_FOR_THE_MAP}.jar nogui
