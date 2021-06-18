@@ -22,3 +22,7 @@ Well it's exactly what McMapDJ doese !
 [<img src="./Lib/images/choosing_version.png" width="600"/>](./Lib/images/choosing_version.png)
 #### Choosing parameters :
 [<img src="./Lib/images/choosing_parameters.png" width="600"/>](./Lib/images/choosing_parameters.png)
+#### Starting the server :
+[<img src="./Lib/images/start_server.png" width="600"/>](./Lib/images/start_server.png)
+
+### How to use it ?
