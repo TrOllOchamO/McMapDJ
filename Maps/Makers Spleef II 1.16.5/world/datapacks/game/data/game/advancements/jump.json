@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"text": "On aime le bunny"
+		},
+		"description": {
+			"text": "Jump 5000 times"
+		},
+		"icon": {
+			"item": "minecraft:rabbit_hide"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"frame": "goal",
+		"announce_to_chat": false
+	},
+		"parent" : "game:pickaxe3",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

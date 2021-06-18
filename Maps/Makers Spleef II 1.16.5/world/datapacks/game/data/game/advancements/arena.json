@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "The Passenger"
+		},
+		"description": {
+			"text": "Play on each arena"
+		},
+		"icon": {
+			"item": "minecraft:filled_map"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": false
+	},
+		"parent" : "game:pickaxe1",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

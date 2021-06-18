@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "Survivor"
+		},
+		"description": {
+			"text": "Survive in a Zombie mode for more than 5 minutes"
+		},
+		"icon": {
+			"item": "minecraft:zombie_head"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": false
+	},
+		"parent" : "game:pickaxe3",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

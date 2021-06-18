@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"text": "The Invisible man"
+		},
+		"description": {
+			"text": "Win while being invisible"
+		},
+		"icon": {
+			"item": "minecraft:gunpowder"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"frame": "goal",
+		"announce_to_chat": false
+	},
+		"parent" : "game:pickaxe1",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

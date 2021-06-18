@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": {
+			"text": "Stone Pickaxe"
+		},
+		"description": {
+			"text": "Unlock previous advancements to unlock this awesome pickaxe!"
+		},
+		"icon": {
+			"item": "minecraft:stone_pickaxe"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"frame": "challenge",
+		"announce_to_chat": true
+	},
+		"parent" : "game:win1",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		},
+	    "rewards": {
+        "function": "game:rewards/stone_pickaxe"
+	}
+	}

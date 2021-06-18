@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": {
+			"text": "Iron Pickaxe"
+		},
+		"description": {
+			"text": "Unlock previous advancements to unlock this awesome pickaxe!"
+		},
+		"icon": {
+			"item": "minecraft:iron_pickaxe"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"frame": "challenge",
+		"announce_to_chat": true
+	},
+		"parent" : "game:win2",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		},
+	    "rewards": {
+        "function": "game:rewards/iron_pickaxe"
+	}
+	}

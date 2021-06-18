@@ -1,0 +1,27 @@
+{
+	"display": {
+		"title": {
+			"text": "Pro Player"
+		},
+		"description": {
+			"text": "Win 15 games"
+		},
+		"icon": {
+			"item": "minecraft:gold_nugget"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": false
+	},
+		"parent" : "game:mine2",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}
+
+
+
+
+

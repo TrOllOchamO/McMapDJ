@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "Like'em all"
+		},
+		"description": {
+			"text": "Play on each gamemode"
+		},
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": false
+	},
+		"parent" : "game:arena",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

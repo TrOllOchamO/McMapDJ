@@ -1,0 +1,23 @@
+
+#Makers Spleef II - Copyright (c) MineMakers Team (by Maxo6)
+
+function game:events/random
+
+summon area_effect_cloud ~ ~ ~ {Tags:["summonItem"]}
+spreadplayers 1000 1000 0 23 false @e[type=area_effect_cloud,tag=summonItem]
+
+execute if score result! random matches 0..10 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"white_terracotta",Count:16b,tag:{display:{Name:"{\"text\":\"Block\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047,CanPlaceOn:["#game:arena","minecraft:cyan_wool"]}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 11..18 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"cobweb",Count:3b,tag:{CanPlaceOn:["#game:arena","minecraft:cyan_wool"],display:{Name:"{\"text\":\"Cobweb\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 19..29 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"ender_pearl",Count:2b,tag:{CanPlaceOn:["#game:arena","minecraft:cyan_wool"],display:{Name:"{\"text\":\"Ender Pearl\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 30..34 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"carrot_on_a_stick",Count:1b,tag:{display:{Name:"{\"text\":\"Spreadplayers\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 38..45 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"firework_rocket",Count:1b,tag:{display:{Name:"{\"text\":\"Rocket\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047,CanPlaceOn:["#game:arena","minecraft:cyan_wool"]}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 46..56 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"potion",Count:1b,tag:{display:{Name:"{\"text\":\"Potion of Invisibility\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047,CustomPotionColor:14935011,CustomPotionEffects:[{Id:14,Amplifier:0,Duration:400}]}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 91..96 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"potion",Count:1b,tag:{display:{Name:"{\"text\":\"Potion of Invincibility\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047,CustomPotionColor:285462,CustomPotionEffects:[{Id:26,Amplifier:0,Duration:200}]}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 69..79 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"experience_bottle",Count:1b,tag:{display:{Name:"{\"text\":\"Clay Solvant\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047,CanPlaceOn:["#game:arena","minecraft:cyan_wool"]}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 80..87 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"snowball",Count:1b,tag:{display:{Name:"{\"text\":\"Magic Ball\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047,CanPlaceOn:["#game:arena","minecraft:cyan_wool"]}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 88..90 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"emerald",Count:1b,tag:{display:{Name:"{\"text\":\"Bonus Life\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 57..62 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"wooden_sword",Count:1b,tag:{Damage:59s,display:{Name:"{\"text\":\"Pusher\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047,Enchantments:[{id:"minecraft:sharpness",lvl:1000},{id:"minecraft:knockback",lvl:6}]}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 63..68 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"bow",Count:1b,tag:{Damage:384s,display:{Name:"{\"text\":\"Bow\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047,Enchantments:[{id:"minecraft:punch",lvl:3},{id:"minecraft:infinity",lvl:1}]}},Tags:["bonus","invulnerable"]}
+execute if score result! random matches 97..100 at @e[type=area_effect_cloud,tag=summonItem] run summon item ~ ~ ~ {Item:{id:"golden_axe",Count:1b,tag:{Damage:32s,Enchantments:[{id:"minecraft:sharpness",lvl:10}],display:{Name:"{\"text\":\"Smasher\",\"color\":\"gray\",\"italic\":false}"},HideFlags:2047}},Tags:["bonus","invulnerable"]}
+
+kill @e[type=area_effect_cloud,tag=summonItem]

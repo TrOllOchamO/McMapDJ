@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "Social Player"
+		},
+		"description": {
+			"text": "Play with 5 or more players"
+		},
+		"icon": {
+			"item": "minecraft:oak_door"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": false
+	},
+		"parent" : "game:pickaxe2",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"text": "Super Miner"
+		},
+		"description": {
+			"text": "Mine 500 blocks"
+		},
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"frame": "goal",
+		"announce_to_chat": false
+	},
+		"parent" : "game:pickaxe1",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}
