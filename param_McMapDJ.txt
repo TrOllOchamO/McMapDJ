@@ -1,0 +1,13 @@
+path_server_directory=ABSOLUTE_PATH_TO_THE_DIRECTORY_THAT_CONTAIN_YOUR_MINECRAFT_SERVER
+server_screen_session_name=THE_NAME_YOU_GIVEN_TO_YOUR_MINECRFAT_SCREEN_SESSION
+
+#userName is used simply the name of the session in witch you will execute the python script
+#so for exemple for /home/pi put user_name=pi
+user_name=LINUX_USER_NAME
+
+
+#in your command you must replace the path to the server directory with {PATH_SERVER_DIRECTORY}
+#and replace the spigot version with {VERSION_FOR_THE_MAP}
+#for example the command "java -Xms2500M -Xmx2500M -jar /home/pi/minecraft/spigot-1.16.5.jar nogui"
+#became : "java -Xms2500M -Xmx2500M -jar {PATH_SERVER_DIRECTORY}/spigot-{VERSION_FOR_THE_MAP}.jar nogui"
+server_start_command=THE_COMMAND_YOU_USUALLY_USE_TO_START_YOUR_SERVER_MODIFIED_AS_REQUESTED_ABOVE
