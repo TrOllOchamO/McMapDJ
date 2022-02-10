@@ -809,7 +809,7 @@ def start_server(infos):
                     print(f"You have chosen to try to download spigot-{version}.jar")
                     try:
                         print("Downloading...")
-                        command = f"wget https://cdn.getbukkit.org/spigot/spigot-{version}.jar"
+                        command = f"wget -P {infos['path_server_directory']} https://cdn.getbukkit.org/spigot/spigot-{version}.jar"
                         os.system(f"{screen_prefix} '{command}^M'")
                         print("Download complete.")
                         print("Starting server...")
